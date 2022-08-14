@@ -1,0 +1,16 @@
+# Write a Python-script that displays the message “Hello world”.
+print ("Hello World")
+# Rewrite the first script to display three any messages.
+print ("We are study programming language Pithon", "Python the best programming language","I will be a programmer", sep="\n")
+#Write a Python-script to reads values for the length and width of a rectangle and returns the area of the rectangle.
+a = int(input('lenght a reactangle'))
+b = int(input('width a reactangle'))
+print ("Area of the rectangle",  a*b)
+#Write a program that requests the user to enter two numbers and prints the sum, product, difference and quotient of the two numbers.
+num = int(input("Number"))
+num_2 = int(input("Number2"))
+print (num+num_2,num-num_2,num*num_2,num/num_2, sep="\n")
+#Write a program that reads in the radius of a circle and prints the circle’s diameter, circumference and area. Use the constant value 3.14159 for π. Do these calculations in output statements
+r = int(input("enter your the radius of a circle"))
+pi=3.14
+print ("diameter",2*r,"circumference",2*pi*r,"area",pi*r**2, sep="\n" )
