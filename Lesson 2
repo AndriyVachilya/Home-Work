@@ -1,0 +1,45 @@
+#Construct an integer from the string "123"
+a = int("123")
+print(a)
+#Construct a float from the integer 123
+b = float(123)
+print(b)
+#Construct an integer from the float 12.345
+c = int(12.345)
+print(c)
+#Write a Python-script that detects the last 4 digits of a credit card
+a = int(input("Enter your card number"))
+print(a %10000)
+#Write a Python-script that calculates the sum of the digits of a three-digit number
+a = int(input("Input three numbers"))
+num = str(a)
+summ = 0
+for i in num:
+    summ += int(i)
+print(summ)
+#Write a program that calculates and displays the area of a triangle if its sides are known
+import math
+a = int(input("Введіть сторону а"))
+b = int(input("Введіть сторону б"))
+c = int(input("Введіть сторону с"))
+p= (a+b+c)/2
+s = math.sqrt(p*(p-a)*(p-b)*(p-c))
+print (s)
+#*Write a Python-script that calculates the sum of the digits of a number
+a = int(input("Input three numbers"))
+num = str(a)
+summ = 0
+for i in num:
+    summ += int(i)
+print(summ)
+#*Determine the number of digits in a number
+num = int(input("Input your numbers"))
+count = 0
+while num != 0:
+    num //= 10
+    count += 1
+print("Number of digits: " + str(count))
+#*Print the digits in reverse order
+number = 3456                        #9
+number = str(number)
+print(number[::-1])
